@@ -32,7 +32,7 @@ FusionEKF::FusionEKF() {
         0, 0.0009, 0,
         0, 0, 0.09;
 
-    Q_ << 81, 0, 0, 81;
+    Q_ << 81, 0, 0, 81; // ax and ay are 9 each, uncorrelated
 
     /**
     TODO:
